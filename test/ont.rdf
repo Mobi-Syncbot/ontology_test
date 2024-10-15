@@ -12,4 +12,9 @@
 	<title xmlns="http://purl.org/dc/terms/">TestClass</title>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://mobi.com/ontologies/TestOnt#Test2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<title xmlns="http://purl.org/dc/terms/">Test2</title>
+</rdf:Description>
+
 </rdf:RDF>
