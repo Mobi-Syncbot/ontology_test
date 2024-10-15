@@ -7,4 +7,9 @@
 	<title xmlns="http://purl.org/dc/terms/">TestOnt</title>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://mobi.com/ontologies/TestOnt#TestClass">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<title xmlns="http://purl.org/dc/terms/">TestClass</title>
+</rdf:Description>
+
 </rdf:RDF>
