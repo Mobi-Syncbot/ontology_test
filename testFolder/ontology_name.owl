@@ -20,6 +20,7 @@
 	<title xmlns="http://purl.org/dc/terms/">TestInd</title>
 	<testDataProp xmlns="https://mobi.com/ontologies/TestOnt#" xml:lang="en">test</testDataProp>
 	<testDataProp xmlns="https://mobi.com/ontologies/TestOnt#">test2</testDataProp>
+	<testDataProp xmlns="https://mobi.com/ontologies/TestOnt#">test3</testDataProp>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://mobi.com/ontologies/TestOnt#testProp">
