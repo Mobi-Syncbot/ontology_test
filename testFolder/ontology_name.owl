@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="https://mobi.com/ontologies/TestOnt">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">TestOnt</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://mobi.com/ontologies/TestOnt#TestClass">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<title xmlns="http://purl.org/dc/terms/">TestClass</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://mobi.com/ontologies/TestOnt#TestInd">
+	<rdf:type rdf:resource="https://mobi.com/ontologies/TestOnt#TestClass"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<title xmlns="http://purl.org/dc/terms/">TestInd</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://mobi.com/ontologies/TestOnt#testProp">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<title xmlns="http://purl.org/dc/terms/">TestProp</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://mobi.com/ontologies/TestOnt#testDataProp">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<title xmlns="http://purl.org/dc/terms/">TestDataProp</title>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-start-3085bd5e9-320c-458a-a200-1eab516db7bf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+	<assertionProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="https://mobi.com/ontologies/TestOnt#testDataProp"/>
+	<sourceIndividual xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="https://mobi.com/ontologies/TestOnt#TestInd"/>
+	<targetValue xmlns="http://www.w3.org/2002/07/owl#" xml:lang="en">Test</targetValue>
+</rdf:Description>
+
+</rdf:RDF>
