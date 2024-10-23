@@ -18,6 +18,7 @@
 	<rdf:type rdf:resource="https://mobi.com/ontologies/TestOnt#TestClass"/>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<title xmlns="http://purl.org/dc/terms/">TestInd</title>
+	<testDataProp xmlns="https://mobi.com/ontologies/TestOnt#" xml:lang="en">test</testDataProp>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://mobi.com/ontologies/TestOnt#testProp">
