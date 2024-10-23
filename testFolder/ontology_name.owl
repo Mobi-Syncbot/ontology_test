@@ -40,4 +40,10 @@
 	<targetValue xmlns="http://www.w3.org/2002/07/owl#" xml:lang="en">Test</targetValue>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://mobi.com/ontologies/TestOnt#TestInd2">
+	<rdf:type rdf:resource="https://mobi.com/ontologies/TestOnt#TestClass"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<title xmlns="http://purl.org/dc/terms/">TestInd2</title>
+</rdf:Description>
+
 </rdf:RDF>
