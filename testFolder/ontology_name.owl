@@ -6,6 +6,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">TestOnt</title>
 	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#">Test Comment</comment>
+	<creator xmlns="http://purl.org/dc/terms/">Bryan Miller</creator>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://mobi.com/ontologies/TestOnt#TestClass">
