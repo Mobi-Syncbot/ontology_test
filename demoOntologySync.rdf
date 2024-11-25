@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="https://mobi.com/ontologies/TestingGithub">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<title xmlns="http://purl.org/dc/terms/">TestingGithub</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://mobi.com/ontologies/TestingGithub#TestClass">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<title xmlns="http://purl.org/dc/terms/">TestClass</title>
+</rdf:Description>
+
+</rdf:RDF>
